@@ -1,16 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {TabViewModule} from 'primeng/primeng';
 
 import { AppComponent } from './app.component';
+import { LeftPanelComponent } from './left-panel/left-panel.component';
+import { ContentComponent } from './content/content.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LeftPanelComponent,
+    ContentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    TabViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]
