@@ -1,21 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {TabViewModule} from 'primeng/primeng';
+import { MarkdownModule } from 'angular2-markdown';
+
+import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { LeftPanelComponent } from './left-panel/left-panel.component';
 import { ContentComponent } from './content/content.component';
+import { PostListComponent } from './post-list/post-list.component';
+import { ArticlePageComponent } from './article-page/article-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LeftPanelComponent,
-    ContentComponent
+    ContentComponent,
+    PostListComponent,
+    ArticlePageComponent
   ],
   imports: [
     BrowserModule,
-    TabViewModule
+    TabViewModule,
+    MarkdownModule.forRoot(),
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
