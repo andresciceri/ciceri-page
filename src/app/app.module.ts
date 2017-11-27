@@ -10,6 +10,7 @@ import { LeftPanelComponent } from './left-panel/left-panel.component';
 import { ContentComponent } from './content/content.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { ArticlePageComponent } from './article-page/article-page.component';
+import { PagePipesPipe, ReversePipe } from './page-pipes.pipe';
 
 
 @NgModule({
@@ -18,7 +19,9 @@ import { ArticlePageComponent } from './article-page/article-page.component';
     LeftPanelComponent,
     ContentComponent,
     PostListComponent,
-    ArticlePageComponent
+    ArticlePageComponent,
+    PagePipesPipe,
+    ReversePipe
   ],
   imports: [
     BrowserModule,

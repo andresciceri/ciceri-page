@@ -1,9 +1,3 @@
----
-title: Como implementar NVM sobre Linux
-date: 2017-04-10 14:15:46
-tags: Node
----
-
 NVM (Node Version Manager) es un manejador de versiones para NodeJs, el cual nos permite trabajar multiples proyectos de manera paralela con diferentes versiones de NodeJs que permiten ejecutar dependencias que requieran una versión específica de Node.
 
 El uso de NVM en el ambiente de desarrollo es muy útil para la migración de aplicaciones a versiones mas recientes.

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Page} from '../page';
+import {pageRoutes} from '../page.routing';
 
 @Component({
   selector: 'app-post-list',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostListComponent implements OnInit {
 
-  constructor() { }
+	postList : Page[];
 
-  ngOnInit() {
+  constructor() { 
+  	this.postList = pageRoutes;
+  }
+
+  ngOnInit() {  	
   }
 
 }

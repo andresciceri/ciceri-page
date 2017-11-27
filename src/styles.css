@@ -3296,7 +3296,7 @@ color
 }
 .article-entry h2::after,
 .article-entry h2::before {
-  content: " â€”â€” ";
+  
 }
 .article-entry h3 {
   margin: 0.5em auto;

@@ -1,3 +1,27 @@
-<p>
-  article-page works!
-</p>
+<article id="post-angular-cli" class="article article-type-post" itemscope itemprop="blogPost">
+	<div class="article-meta">
+		<a  class="article-date">
+			<time itemprop="datePublished">{{article.date | date}}</time>
+		</a>
+    </div>
+    <div class="article-inner">
+    	<input type="hidden" class="isFancy" />    
+      	<header class="article-header">
+      		<h1 class="article-title" itemprop="name">
+		      {{article.title}}
+		    </h1>
+      	</header>
+      	<div class="article-info article-info-post">
+			<div class="article-tag tagcloud">
+				<ul class="article-tag-list">
+					<li *ngFor="let tag of article.tags" class="article-tag-list-item"><a class="color5">{{tag}}</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="article-entry" itemprop="articleBody">
+			<markdown [path]="'pages/' + article.type + '/' + article.path"></markdown>
+		</div>
+    </div>
+</article>

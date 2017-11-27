@@ -1,8 +1,3 @@
----
-title: Acerca de mi
-date: 2017-04-04 11:24:59
----
-
 Ingeniero Telemático, con interés en gestión y desarrollo de aplicaciones web, cloud computing & big data. Cuenta con experiencia de 6 años en desarrollo de aplicaciones web, gestión de base de datos SQl & NoSQL, cloud computing, seguridad informática.
 
 Especialidades: Angular 2, AngularJs, NodeJs, Django, Yii, MongoDB, Firebase.

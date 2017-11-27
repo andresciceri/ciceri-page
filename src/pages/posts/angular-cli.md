@@ -1,9 +1,3 @@
----
-title: Crear una aplicación en Angular 2 usando Angular-Cli
-date: 2017-04-17 18:30:34
-tags: Angular 2
----
-
 Angular-Cli es un generador (Command line interface) para aplicaciones en [Angular 2](https://angular.io/), permite crear el scaffolding necesario para comenzar a desarrollar nuestra aplicación en [Angular 2](https://angular.io/). Su desarrollo se basó en [Ember Cli](https://ember-cli.com/) asi que quienes lo hayan usado será muy familiar crear sus aplicaciones con Angular-Cli.
 
 Antes de comenzar a usar Angular-Cli debemos asegurarnos de tener la versión de Node superior a 6.9 y NPM 3 o superior. Recomiendo usar NVM para ejecutar las versiones de Node, para conocer sobre su uso: [Node con NVM](http://andresciceri.co/2017/04/10/nvm-use/)
