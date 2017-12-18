@@ -30,6 +30,14 @@ export const pageRoutes : Page[] = [
 		path: 'angular-cli.md',
 		type: 'posts',
 		date: '2017-04-17 18:30:34',
-		tags: ['Angular 2']
+		tags: ['Angular']
+	},
+	{
+		id: 5,
+		title: 'Prueba tus servicios en Angular con In Memory Web API',
+		path: 'memory-web-api.md',
+		type: 'posts',
+		date: '2017-12-17 3:00:00',
+		tags: ['Angular']
 	}
 ];

@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {TabViewModule} from 'primeng/primeng';
 import { MarkdownModule } from 'angular2-markdown';
+import { Angulartics2Module } from 'angulartics2';
+import { Angulartics2GoogleAnalytics } from 'angulartics2/ga';
 
 import { routing } from './app.routing';
 
@@ -27,7 +29,8 @@ import { PagePipesPipe, ReversePipe } from './page-pipes.pipe';
     BrowserModule,
     TabViewModule,
     MarkdownModule.forRoot(),
-    routing
+    routing,
+    Angulartics2Module.forRoot([Angulartics2GoogleAnalytics])
   ],
   providers: [],
   bootstrap: [AppComponent]
