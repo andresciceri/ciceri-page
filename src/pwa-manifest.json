@@ -1,0 +1,11 @@
+{
+    "short_name": "Andrés Ciceri",
+    "name": "Andrés Ciceri Page",
+    "icons": [      
+    ],
+    "start_url": "/",
+    "theme_color": "#3f3f3f",
+    "background_color": "#3f3f3f",
+    "display": "standalone",
+    "orientation": "portrait"
+  }
