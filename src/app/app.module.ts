@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {TabViewModule} from 'primeng/primeng';
-import { MarkdownModule } from 'angular2-markdown';
+import { NgxMdModule } from "ngx-md";
 import { Angulartics2Module } from 'angulartics2';
 import { Angulartics2GoogleAnalytics } from 'angulartics2/ga';
 
@@ -28,9 +28,9 @@ import { PagePipesPipe, ReversePipe } from './page-pipes.pipe';
   imports: [
     BrowserModule,
     TabViewModule,
-    MarkdownModule.forRoot(),
+    NgxMdModule.forRoot(),
     routing,
-    Angulartics2Module.forRoot([Angulartics2GoogleAnalytics])
+    Angulartics2Module.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
